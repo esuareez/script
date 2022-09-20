@@ -26,6 +26,15 @@ sudo gdebi GitHubDesktop-linux-2.9.0-linux2.deb
 printf "Descargando Brave"
 sudo snap install brave
 
+printf "Descargando Correo"
+sudo snap install mailspring
+
+printf "Descargando Docker"
+sudo snap install docker
+
+printf "Descargando Node"
+sudo snap install node --classic
+
 printf "En breves se reiniciará la computadora"
 sleep .10
 systemctl reboot
